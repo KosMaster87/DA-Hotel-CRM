@@ -30,6 +30,10 @@
     "url": "https://github.com/KosMaster87/da-hotel-crm/issues"
   },
   "homepage": "https://github.com/KosMaster87/da-hotel-crm#readme",
+  "engines": {
+    "node": ">=22 <23",
+    "npm": ">=10"
+  },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0"
