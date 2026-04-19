@@ -1,3 +1,5 @@
+import { createConflictError, createNotFoundError, createValidationError } from '@/utils/app-error';
+
 export interface Hotel {
   id: string;
   name: string;
@@ -22,7 +24,7 @@ export class HotelService {
     const hotel = this.hotels.find((entry) => entry.id === id);
 
     if (!hotel) {
-      throw new Error(`Hotel not found: ${id}`);
+      throw createNotFoundError(`Hotel not found: ${id}`);
     }
 
     return hotel;
@@ -33,11 +35,11 @@ export class HotelService {
     const city = dto.city.trim();
 
     if (!name) {
-      throw new Error('Hotel name is required');
+      throw createValidationError('Hotel name is required');
     }
 
     if (!city) {
-      throw new Error('Hotel city is required');
+      throw createValidationError('Hotel city is required');
     }
 
     const duplicate = this.hotels.some(
@@ -47,7 +49,7 @@ export class HotelService {
     );
 
     if (duplicate) {
-      throw new Error(`Hotel already exists: ${name} (${city})`);
+      throw createConflictError(`Hotel already exists: ${name} (${city})`);
     }
 
     const createdHotel: Hotel = {
