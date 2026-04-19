@@ -39,3 +39,24 @@ jobs:
 
       - name: Build
         run: npm --prefix frontend run build
+
+  coverage-soft-gate:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm --prefix frontend ci
+
+      - name: Coverage report (soft gate)
+        run: npm --prefix frontend run test:coverage
