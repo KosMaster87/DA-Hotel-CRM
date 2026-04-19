@@ -1,0 +1,52 @@
+{
+  "name": "hotel-crm",
+  "version": "1.0.0",
+  "description": "Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferanten und Rechnungen. Gebaut im Rahmen der Developer-Akademie Weiterbildung mit Mentor und Schüler-Team.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "lint": "npm --prefix frontend run lint",
+    "format": "npm --prefix frontend run format",
+    "test": "npm --prefix frontend run test",
+    "test:watch": "npm --prefix frontend run test:watch",
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KosMaster87/da-hotel-crm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KosMaster87/da-hotel-crm/issues"
+  },
+  "homepage": "https://github.com/KosMaster87/da-hotel-crm#readme",
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0"
+  },
+  "lint-staged": {
+    "frontend/src/**/*.{ts,tsx}": [
+      "npx --prefix frontend eslint --fix",
+      "npx --prefix frontend prettier --write"
+    ],
+    "frontend/src/**/*.{css,html}": [
+      "npx --prefix frontend prettier --write"
+    ]
+  }
+}
