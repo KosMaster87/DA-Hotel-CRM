@@ -2,6 +2,9 @@
   "compilerOptions": {
     "target": "es2023",
     "module": "esnext",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "types": ["vite/client"],
     "skipLibCheck": true,
