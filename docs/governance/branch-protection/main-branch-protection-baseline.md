@@ -8,7 +8,7 @@
 - Ruleset-ID: 15294137
 - Stand: 2026-04-20
 
-Hinweis: Im Projekt ist aktuell die Strict-Variante aktiv. Diese Datei dokumentiert die abgespeckte Baseline als Referenz.
+Hinweis: Im Projekt ist aktuell die Solo-Variante aktiv. Diese Datei dokumentiert die abgespeckte Baseline als Referenz.
 
 ## Zweck
 
