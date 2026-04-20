@@ -8,6 +8,8 @@
 - Ruleset-ID: 15294137
 - Stand: 2026-04-20
 
+Hinweis: Diese Datei ist eine Referenz für die frühere Strict-Konfiguration. Aktuell ist im Projekt die Solo-Konfiguration aktiv.
+
 ## Ziel
 
 Die Strict-Variante erweitert die Baseline um stärkere Identitäts- und Review-Absicherung.
