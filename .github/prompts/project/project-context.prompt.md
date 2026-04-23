@@ -1,14 +1,14 @@
 ---
 agent: "agent"
-description: "Use when: starting any new feature, onboarding a new contributor, or when an agent needs full project context before working on DA Hotel CRM."
+description: "Use when: starting any new feature, onboarding a new contributor, or when an agent needs full project context before working on Dev2K Hotel CRM."
 ---
 
-# DA Hotel CRM — Projekt-Context für Agenten
+# Dev2K Hotel CRM — Projekt-Context für Agenten
 
 ## Was wir bauen
 
 Ein produktionsreifes TypeScript-CRM für Hotelverwaltung.
-Ausbildungskontext: Developer-Akademie mit Mentor (Tech Lead) + Schüler-Team.
+Kontext: Dev2K Eigenprojekt.
 
 **Domains:** Hotels & Hotelketten, Kunden/Kontakte, Buchungen/Termine, Lieferanten, Rechnungen, Dashboard.
 
@@ -23,7 +23,7 @@ Ausbildungskontext: Developer-Akademie mit Mentor (Tech Lead) + Schüler-Team.
 ## Ordnerstruktur
 
 ```
-hotel-crm/
+hotel-app-dev2k/
 ├── frontend/src/
 │   ├── features/        ← auth/, hotels/, bookings/, suppliers/, invoices/, dashboard/
 │   ├── services/        ← Supabase-Wrapper + Business-Logik (ein Service pro Domain)
@@ -55,12 +55,13 @@ hotel-crm/
 ## Definition of Done (DoD)
 
 Ein Feature ist fertig wenn:
+
 - Feature funktioniert wie spezifiziert
 - TypeScript fehlerfrei, kein `any`
 - ESLint sauber
 - Tests grün (Vitest)
 - Keine Architekturgrenzen verletzt
-- PR erstellt und Mentor-approved
+- PR erstellt und Lead-approved
 
 ## Prioritäten bei Entscheidungen
 
@@ -75,6 +76,6 @@ Ein Feature ist fertig wenn:
 
 - Architektur-Details: `docs/architecture/tech-stack.md`
 - Projektphasen: `docs/PROJECT-PLAN.md`
-- Ausbildungsplan: `docs/training/8-week-plan.md`
+- Entwicklungsplan: `docs/training/8-week-plan.md`
 - Agent-Regeln: `.github/AGENTS.md`
 - Vollständige Coding-Regeln: `.github/copilot-instructions.md`

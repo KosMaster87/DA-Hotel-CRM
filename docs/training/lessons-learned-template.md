@@ -1,4 +1,4 @@
-# Lessons Learned — DA Hotel CRM Bootcamp
+# Lessons Learned — Dev2K Hotel CRM Bootcamp
 
 > Ausfüllen am Ende des Projekts (Woche 8). Jedes Teammitglied füllt es individuell aus,
 > dann vergleicht die Gruppe die Antworten gemeinsam.
@@ -51,7 +51,7 @@ Beantworte diese Fragen einzeln, eine nach der anderen — ohne vorher die Antwo
 
 - **Was würde das Team beim nächsten Projekt von Tag 1 an anders machen?**
 
-- **Welches Feedback vom Mentor war am wertvollsten?**
+- **Was lief besonders gut oder schlecht?**
 
 ---
 

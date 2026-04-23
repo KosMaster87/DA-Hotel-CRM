@@ -2,7 +2,7 @@
 
 ## Projektbezug
 
-- Repository: KosMaster87/da-hotel-crm
+- Repository: KosMaster87/Dev2K-Hotel-CRM
 - Ziel-Branch: main
 - Ruleset-Name: Protect main strict
 - Ruleset-ID: 15294137

@@ -2,7 +2,7 @@
 
 ## Projektbezug
 
-- Repository: KosMaster87/da-hotel-crm
+- Repository: KosMaster87/Dev2K-Hotel-CRM
 - Ziel-Branch: main
 - Referenzprofil: Baseline (Design-Vorlage)
 - Ruleset-ID: 15294137

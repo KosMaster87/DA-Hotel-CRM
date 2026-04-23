@@ -1,9 +1,9 @@
 ---
 agent: "agent"
-description: "Use when: setting up day-0 structure for DA Hotel CRM with Vanilla TypeScript + Vite + Supabase, ESLint + Prettier and TDD-first standards."
+description: "Use when: setting up day-0 structure for Dev2K Hotel CRM with Vanilla TypeScript + Vite + Supabase, ESLint + Prettier and TDD-first standards."
 ---
 
-# Day 0 Setup — DA Hotel CRM
+# Day 0 Setup — Dev2K Hotel CRM
 
 ## Goal
 
@@ -24,7 +24,7 @@ nur Fundament und Werkzeuge bereitstellen.
 10. `README.md` mit Setup-Schritten für neue Contributors.
 11. `CONTRIBUTING.md` mit Commit-Konventionen und Branch-Strategie.
 
-## Open Decisions (Mentor klärt vor Start)
+## Open Decisions (Lead klärt vor Start)
 
 - [ ] Auth: Supabase Auth ODER eigenes JWT?
 - [ ] Clientseitiges Routing: eigener Mini-Router ODER Bibliothek (z.B. `navigo`)?

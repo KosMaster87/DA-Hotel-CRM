@@ -2,7 +2,7 @@
 applyTo: "frontend/src/services/**/*.ts,supabase/**/*.sql,supabase/**/*.ts,shared/contracts/**/*.ts"
 ---
 
-# Supabase Patterns — DA Hotel CRM
+# Supabase Patterns — Dev2K Hotel CRM
 
 Diese Regeln gelten für alle Supabase-Aufrufe und SQL-Dateien im Projekt.
 

@@ -1,12 +1,12 @@
 ---
 agent: "ask"
-description: "Use when: reviewing a pull request, checking code quality, or auditing a file against DA Hotel CRM standards"
+description: "Use when: reviewing a pull request, checking code quality, or auditing a file against Dev2K Hotel CRM standards"
 argument-hint: "Dateipfad oder Feature-Name (z.B. src/services/hotel.service.ts)"
 ---
 
 # Code Review: $input
 
-Prüfe den Code gegen die Standards des DA Hotel CRM.
+Prüfe den Code gegen die Standards des Dev2K Hotel CRM.
 Referenz: `.github/copilot-instructions.md` + `.github/AGENTS.md`
 
 ---

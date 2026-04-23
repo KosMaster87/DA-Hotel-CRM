@@ -3,7 +3,7 @@ agent: "ask"
 description: "Use when: preparing a PR merge or production deployment — runs through the full hotel CRM quality gate"
 ---
 
-# Deploy-Check — DA Hotel CRM
+# Deploy-Check — Dev2K Hotel CRM
 
 Führe alle Punkte durch, bevor ein Branch gemergt oder ein Build deployt wird.
 

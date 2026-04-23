@@ -1,6 +1,6 @@
 ---
 agent: "ask"
-description: "Use when: investigating a bug or unexpected behavior in DA Hotel CRM"
+description: "Use when: investigating a bug or unexpected behavior in Dev2K Hotel CRM"
 argument-hint: "Bereich oder Datei wo der Bug auftritt (z.B. BookingService, hotel-form.view.ts)"
 ---
 

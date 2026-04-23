@@ -3,7 +3,7 @@ applyTo: "frontend/src/**/*.ts,shared/**/*.ts,supabase/**/*.ts,supabase/**/*.sql
 description: "Use when: implementing TypeScript + Vite + Supabase features that touch architecture boundaries, services, shared types, or database data flow."
 ---
 
-# Architecture Instruction — DA Hotel CRM
+# Architecture Instruction — Dev2K Hotel CRM
 
 ## Frontend (Vanilla TypeScript + Vite)
 

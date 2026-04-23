@@ -1,13 +1,13 @@
-# Projektplan — DA Hotel CRM
+# Projektplan — Dev2K Hotel CRM
 
-**Ausbildungskontext:** Developer-Akademie | Mentor + Schüler-Team
+**Kontext:** Dev2K Eigenprojekt
 **Ziel:** Produktionsreifes TypeScript-CRM für Hotelverwaltung
 
 ---
 
-## Phase -1 — Engineering Setup (Mentor-Phase)
+## Phase -1 — Engineering Setup (Dev2K-Lead-Phase)
 
-> Diese Phase gehört dem Mentor. Kein Schüler schreibt Code, bevor diese Entscheidungen getroffen und dokumentiert sind.
+> Diese Phase ist die Setup-Phase. Keine Features werden entwickelt, bevor diese Entscheidungen getroffen und dokumentiert sind.
 
 **Architektur:**
 
@@ -19,22 +19,22 @@
 **Team-Standards:**
 
 - [ ] Naming Conventions dokumentieren (Dateien, Funktionen, DB-Tabellen)
-- [ ] ESLint-Regeln festlegen und einige Schüler validieren lassen
+- [ ] ESLint-Regeln festlegen und validieren
 - [ ] Branch- und PR-Regeln kommunizieren
 - [ ] Definition of Done (DoD) mit dem Team besprechen und bestätigen
 - [ ] Review-Checkliste für PRs erstellen
 
-**Lernziel dieser Phase:** Schüler verstehen, _warum_ Architektur vor Code kommt.
+**Lernziel dieser Phase:** Das Team versteht, _warum_ Architektur vor Code kommt.
 
 ---
 
 ## Phase 0 — Fundament (Day 0)
 
-> Blocker: Mentor klärt 2 offene Entscheidungen (siehe tech-stack.md) bevor Code geschrieben wird.
+> Blocker: Lead klärt 2 offene Entscheidungen (siehe tech-stack.md) bevor Code geschrieben wird.
 
 **Aufgaben:**
 
-- [ ] GitHub-Repo anlegen, Schüler als Contributors einladen
+- [ ] GitHub-Repo anlegen, Contributors einladen
 - [ ] Monorepo-Struktur anlegen (`frontend/`, `shared/`, `supabase/`, `docs/`)
 - [ ] Vite + TypeScript Frontend-Scaffold (`npm create vite@latest`)
 - [ ] ESLint + Prettier konfigurieren
@@ -170,7 +170,7 @@ interface HotelChain {
 ```
 main (geschützt)
   └── develop
-        └── feature/<beschreibung>   ← Schüler arbeiten hier
+        └── feature/<beschreibung>   ← Entwickler arbeiten hier
 ```
 
 **Branch-Konvention:**
@@ -185,7 +185,7 @@ main (geschützt)
 - [ ] Build grün
 - [ ] Tests grün (Vitest)
 - [ ] Kein ESLint-Fehler
-- [ ] Mentor Code-Review und Approval
+- [ ] Lead Code-Review und Approval
 
 ---
 
@@ -199,7 +199,7 @@ Jedes Feature gilt als fertig, wenn alle Punkte erfüllt sind:
 - [ ] Kein ESLint-Fehler
 - [ ] Keine Business-Logik im View-Layer
 - [ ] PR erstellt mit aussagekräftiger Beschreibung
-- [ ] Mentor hat approved
+- [ ] Lead hat approved
 
 ---
 
@@ -234,5 +234,5 @@ Unit Tests          (viele)  — Validatoren, Utils, Rollenlogik, Statuswechsel
 
 | Entscheidung  | Option A            | Option B           | Verantwortlich |
 | ------------- | ------------------- | ------------------ | -------------- |
-| Auth-System   | Supabase Auth       | Eigenes JWT        | Mentor         |
-| Client-Router | Bibliothek (navigo) | Mini-Custom-Router | Mentor         |
+| Auth-System   | Supabase Auth       | Eigenes JWT        | Lead           |
+| Client-Router | Bibliothek (navigo) | Mini-Custom-Router | Lead           |

@@ -1,9 +1,9 @@
-# Copilot Instructions — DA Hotel CRM
+# Copilot Instructions — Dev2K Hotel CRM
 
 ## Projektziel
 
-Baue ein TypeScript-CRM für die Hotelverwaltung im Rahmen der Developer-Akademie-Ausbildung.
-Team: Mentor + Schüler als Contributors. Ziel: produktionsreife Architektur lernen und umsetzen.
+Baue ein TypeScript-CRM für die Hotelverwaltung als Dev2K Eigenprojekt.
+Ziel: produktionsreife Architektur umsetzen und demonstrieren.
 
 Features: Hotels & Hotelketten, Kunden/Kontakte, Buchungen/Termine, Lieferanten, Rechnungen, Dashboard.
 
@@ -15,7 +15,7 @@ Features: Hotels & Hotelketten, Kunden/Kontakte, Buchungen/Termine, Lieferanten,
 - **Struktur**: Monorepo (frontend/ + shared/ + supabase/)
 - **Testing**: Vitest
 
-## Offene Entscheidungen (Mentor Decision Points)
+## Offene Entscheidungen (Lead Decision Points)
 
 - Auth: Supabase Auth ODER eigenes JWT-System
 - Client-Router: Bibliothek (z.B. `navigo`) ODER eigener Mini-Router

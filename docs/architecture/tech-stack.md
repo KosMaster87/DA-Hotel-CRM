@@ -1,4 +1,4 @@
-# Tech-Stack — DA Hotel CRM
+# Tech-Stack — Dev2K Hotel CRM
 
 ## Status der Entscheidungen
 
@@ -6,11 +6,11 @@
 | -------------- | -------------------------------------- | ------------------ |
 | Frontend       | Vanilla TypeScript + Vite              | ✅ bestätigt       |
 | Datenbank      | Supabase (PostgreSQL)                  | ✅ bestätigt       |
-| Auth           | Supabase Auth vs. eigenes JWT          | ⏳ Mentor Decision |
+| Auth           | Supabase Auth vs. eigenes JWT          | ⏳ Lead Decision |
 | Linting        | ESLint + Prettier                      | ✅ bestätigt       |
 | Struktur       | Monorepo                               | ✅ bestätigt       |
 | Testing        | Vitest                                 | ✅ bestätigt       |
-| Client-Routing | Eigener Router vs. Bibliothek (navigo) | ⏳ Mentor Decision |
+| Client-Routing | Eigener Router vs. Bibliothek (navigo) | ⏳ Lead Decision |
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Frontend: Vanilla TypeScript + Vite
 
-**Begründung:** Im Ausbildungskontext lernen die Schüler zuerst ohne Framework-Magie.
+**Begründung:** Dev2K nutzt Vanilla TS, um zuerst ohne Framework-Magie.
 Vanilla TS + Vite zeigt klar, wie DOM-Manipulation, Event-Handling, Services und
 Routing wirklich funktionieren — bevor Abstraktion durch Frameworks hinzukommt.
 
@@ -28,7 +28,7 @@ State und Rendering werden manuell oder über einfache Service-Patterns verwalte
 ### Datenbank: Supabase (PostgreSQL)
 
 **Begründung:** Supabase kombiniert PostgreSQL mit einer REST/Realtime-API und einem
-integrierten Auth-System. Relational statt NoSQL — klarer für Schüler, die SQL lernen.
+integrierten Auth-System. Relational statt NoSQL — besser wartbar und transparent.
 Row Level Security (RLS) ersetzt serverseitige Validierungsschichten.
 
 **Konsequenz:** Relationales Datenmodell mit Migrationen. Typen werden automatisch
@@ -45,7 +45,7 @@ Pre-commit Hook (husky + lint-staged) sorgt für automatische Prüfung.
 
 ---
 
-## Offene Entscheidungen (Mentor)
+## Offene Entscheidungen (Lead)
 
 ### Auth: Option A — Supabase Auth
 
@@ -80,7 +80,7 @@ JWT signieren/prüfen + Supabase Service Role Key
 ## Monorepo-Struktur (geplant)
 
 ```
-hotel-crm/
+hotel-app-dev2k/
 ├── frontend/
 │   ├── src/
 │   │   ├── features/
