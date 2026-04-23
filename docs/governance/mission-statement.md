@@ -1,10 +1,10 @@
-# Mission Statement — DA Hotel CRM
+# Mission Statement — Dev2K Hotel CRM
 
 ## Kernsatz
 
-Wir bauen ein TypeScript-CRM für die Hotelverwaltung, weil wir im Rahmen der
-Developer-Akademie-Ausbildung produktionsreife Fullstack-Architektur mit einem
-echten, fachlich relevanten Projekt lernen und demonstrieren wollen.
+Wir bauen ein TypeScript-CRM für die Hotelverwaltung als Dev2K Eigenprojekt,
+um produktionsreife Fullstack-Architektur mit einem echten, fachlich relevanten
+Projekt zu demonstrieren.
 
 ## Fachlicher Zweck
 
@@ -17,22 +17,22 @@ Die Anwendung unterstützt Hotelmanager und deren Teams bei der Verwaltung von:
 - Rechnungen
 - Basiskennzahlen und Reports (Dashboard)
 
-## Technischer Zweck (Ausbildungskontext)
+## Technischer Zweck
 
 Das Projekt demonstriert produktionsreife Architektur mit:
 
 - Vanilla TypeScript + Vite (kein Framework — Grundlagen zuerst)
-- Firebase Firestore als Datenbank
+- Supabase als Datenbank
 - Klaren Architekturgrenzen (Feature-Services-Shared)
 - TDD-first und Code Reviews als Teampraxis
 
 ## README-Version
 
-DA Hotel CRM ist ein Open-Source-Ausbildungsprojekt für das TypeScript-Fullstack-CRM
-einer Hotelverwaltung — mit Fokus auf saubere Architektur, Firebase und teamorientierte
+Dev2K Hotel CRM ist ein Open-Source-Projekt für das TypeScript-Fullstack-CRM
+einer Hotelverwaltung — mit Fokus auf saubere Architektur, Supabase und teamorientierte
 Entwicklungspraktiken.
 
 ## Zielgruppe
 
-- Lernende der Developer-Akademie (Schüler + Mentor)
-- Entwickler, die TypeScript + Firebase-Architektur studieren möchten
+- Dev2K-Entwickler
+- Entwickler, die TypeScript + Supabase-Architektur studieren möchten

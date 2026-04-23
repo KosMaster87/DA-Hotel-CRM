@@ -1,4 +1,4 @@
-# Datenmodell — DA Hotel CRM
+# Datenmodell — Dev2K Hotel CRM
 
 Supabase PostgreSQL Schema. Alle Tabellen mit RLS. Typen via `supabase gen types` in `shared/contracts/database.types.ts`.
 
@@ -310,7 +310,7 @@ export interface AppUser {
 }
 ```
 
-Rolle wird als `user_metadata.role` in Supabase Auth gespeichert und in JWT claims via Hook weitergeleitet (Mentor-Aufgabe in Phase -1).
+Rolle wird als `user_metadata.role` in Supabase Auth gespeichert und in JWT claims via Hook weitergeleitet (Lead-Aufgabe in Phase -1).
 
 ---
 

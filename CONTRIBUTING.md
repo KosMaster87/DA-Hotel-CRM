@@ -1,7 +1,6 @@
-# Contributing — DA Hotel CRM
+# Contributing — Dev2K Hotel CRM
 
-Willkommen im DA Hotel CRM Projekt. Dieses Repository dient als Vorlage und Lernprojekt
-im Rahmen der Developer-Akademie Weiterbildung.
+Willkommen im Dev2K Hotel CRM Projekt. Dieses Repository ist ein Dev2K Eigenprojekt.
 
 ---
 
@@ -84,4 +83,4 @@ Alle Prompts in `.github/prompts/` — in VS Code via `@workspace /promptname` a
 
 ## Fragen?
 
-Über GitHub Issues oder direkt im Team-Kanal der Developer-Akademie.
+Über GitHub Issues.

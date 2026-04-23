@@ -1,12 +1,12 @@
 ---
 agent: "agent"
-description: "Use when: implementing a new domain feature end-to-end in DA Hotel CRM (types → migration → service → view)"
+description: "Use when: implementing a new domain feature end-to-end in Dev2K Hotel CRM (types → migration → service → view)"
 argument-hint: "DomainName (hotel | booking | supplier | invoice | customer | auth)"
 ---
 
 # Neuer Feature Slice: $input
 
-Vollständiger TDD-first Ablauf für eine neue Domain im DA Hotel CRM.
+Vollständiger TDD-first Ablauf für eine neue Domain im Dev2K Hotel CRM.
 Lies zuerst: `.github/copilot-instructions.md` und `.github/instructions/fullstack-architecture.instructions.md`
 
 ---

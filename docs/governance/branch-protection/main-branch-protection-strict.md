@@ -2,11 +2,13 @@
 
 ## Projektbezug
 
-- Repository: KosMaster87/da-hotel-crm
+- Repository: KosMaster87/Dev2K-Hotel-CRM
 - Ziel-Branch: main
 - Ruleset-Name: Protect main strict
 - Ruleset-ID: 15294137
 - Stand: 2026-04-20
+
+Hinweis: Diese Datei ist eine Referenz für die frühere Strict-Konfiguration. Aktuell ist im Projekt die Solo-Konfiguration aktiv.
 
 ## Ziel
 

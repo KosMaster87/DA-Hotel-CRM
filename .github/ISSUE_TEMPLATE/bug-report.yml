@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible bug in DA Hotel CRM
+description: Report a reproducible bug in Dev2K Hotel CRM
 title: "bug: "
 labels:
   - bug

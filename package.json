@@ -1,7 +1,7 @@
 {
-  "name": "hotel-crm",
+  "name": "hotel-app-dev2k",
   "version": "1.0.0",
-  "description": "Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferanten und Rechnungen. Gebaut im Rahmen der Developer-Akademie Weiterbildung mit Mentor und Schüler-Team.",
+  "description": "Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferanten und Rechnungen. Dev2K Eigenprojekt.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -20,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KosMaster87/da-hotel-crm.git"
+    "url": "git+https://github.com/KosMaster87/Dev2K-Hotel-CRM.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/KosMaster87/da-hotel-crm/issues"
+    "url": "https://github.com/KosMaster87/Dev2K-Hotel-CRM/issues"
   },
-  "homepage": "https://github.com/KosMaster87/da-hotel-crm#readme",
+  "homepage": "https://github.com/KosMaster87/Dev2K-Hotel-CRM#readme",
   "engines": {
     "node": ">=22 <25",
     "npm": ">=10"

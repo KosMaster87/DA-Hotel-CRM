@@ -1,6 +1,6 @@
-# DA Hotel CRM
+# Dev2K Hotel CRM
 
-Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferanten und Rechnungen. Gebaut im Rahmen der Developer-Akademie Weiterbildung mit Mentor und Schüler-Team.
+Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferanten und Rechnungen. Dev2K Eigenprojekt.
 
 **Stack:** Vanilla TypeScript · Vite · Supabase · Vitest
 
@@ -22,7 +22,7 @@ Vollständige CRM-WebApp zur Verwaltung von Hotels, Buchungen, Kunden, Lieferant
 
 ```bash
 # 1. Clone & install
-git clone https://github.com/<user>/da-hotel-crm.git && cd da-hotel-crm/hotel-crm
+git clone https://github.com/KosMaster87/Dev2K-Hotel-CRM.git && cd Dev2K-Hotel-CRM/hotel-app-dev2k
 npm install
 
 # 2. Supabase lokal starten (Docker erforderlich)
@@ -91,7 +91,7 @@ npm run format   # Prettier
 ## Projektstruktur
 
 ```
-hotel-crm/
+hotel-app-dev2k/
   frontend/
     src/
       features/       — Domain-Views (hotels, bookings, ...)
@@ -132,10 +132,10 @@ Dateien in `.github/prompts/` und `.github/instructions/`.
 
 ## Architektur-Entscheide (offen)
 
-| Bereich              | Optionen                      | Entscheid durch   |
-| -------------------- | ----------------------------- | ----------------- |
-| Auth-Implementierung | Supabase Auth vs. eigenes JWT | Mentor (Phase -1) |
-| Client-Router        | Eigener Router vs. navigo     | Mentor (Phase -1) |
+| Bereich              | Optionen                      | Entscheid durch |
+| -------------------- | ----------------------------- | --------------- |
+| Auth-Implementierung | Supabase Auth vs. eigenes JWT | Lead (Phase -1) |
+| Client-Router        | Eigener Router vs. navigo     | Lead (Phase -1) |
 
 Details: [docs/architecture/tech-stack.md](docs/architecture/tech-stack.md)
 

@@ -1,6 +1,6 @@
 ---
 agent: "agent"
-description: "Use when: adding a new Supabase migration, changing the DB schema, or adding/updating RLS policies for a table in DA Hotel CRM"
+description: "Use when: adding a new Supabase migration, changing the DB schema, or adding/updating RLS policies for a table in Dev2K Hotel CRM"
 argument-hint: "TableName (z.B. hotels, bookings, suppliers)"
 ---
 

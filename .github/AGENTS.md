@@ -1,4 +1,4 @@
-# DA Hotel CRM — Agent Playbook
+# Dev2K Hotel CRM — Agent Playbook
 
 ## Grundsatz
 
@@ -69,7 +69,7 @@ Wenn Entscheidungen getroffen werden müssen, gilt diese Reihenfolge:
 5. **Performance** — nur wenn messbar notwendig
 6. **Komfort** — DX-Verbesserungen als letztes
 
-## Mentor Review Checkliste
+## Lead Review Checkliste
 
 Bei jedem PR prüfen:
 

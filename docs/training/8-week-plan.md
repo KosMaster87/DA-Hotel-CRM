@@ -1,6 +1,6 @@
-# DA Hotel CRM — 8-Wochen Ausbildungsplan
+# Dev2K Hotel CRM — 8-Wochen Entwicklungsplan
 
-**Format:** Bootcamp-Stil | Mentor + Schüler-Team
+**Format:** Dev2K-Projekt
 **Ziel:** Junior-Entwickler von Null zu einem produktionsreifen CRM-Beitrag
 
 ---
@@ -9,8 +9,8 @@
 
 | Rolle                  | Verantwortung                                                                |
 | ---------------------- | ---------------------------------------------------------------------------- |
-| **Mentor (Tech Lead)** | Architektur vorgeben, PRs reviewen, Refactoring erklären, Standards schützen |
-| **Schüler (Dev Team)** | Features bauen, Tests schreiben, PRs erstellen, Reviews lernen               |
+| **Dev2K Lead** | Architektur vorgeben, PRs reviewen, Refactoring erklären, Standards schützen |
+| **Entwickler (Dev Team)** | Features bauen, Tests schreiben, PRs erstellen, Reviews lernen               |
 
 ---
 
@@ -23,13 +23,13 @@
 - Entwicklungsumgebung vollständig einrichten
 - Ersten Commit erstellen
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - Phase -1 Engineering Setup abschließen (Architekturdiagramm, Coding Guidelines)
 - Offene Tech-Entscheidungen finalisieren (Auth, Router)
 - Kick-off-Session: Architektur erklären, SOLID vorstellen
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - Repo klonen, Setup nach README durchführen
 - ESLint + Prettier zum Laufen bringen
@@ -37,7 +37,7 @@
 - Eine leere Datei in `shared/types/` anlegen, PR erstellen
 - Git-Workflow üben: Branch → Commit → Push → PR → Review → Merge
 
-**Deliverable:** Alle Schüler haben einen gemergten PR.
+**Deliverable:** Alle Entwickler haben einen gemergten PR.
 
 ---
 
@@ -49,17 +49,17 @@
 - Shared Types verstehen und nutzen
 - Ersten Unit Test schreiben (Vitest)
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - Datenmodell-Session: Hotel, Customer, Booking, Invoice als Diagramm erklären
 - TypeScript-Review: Interfaces vs. Types, `readonly`, optionale Felder
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - Shared Types für `Hotel` und `HotelChain` vollständig implementieren
 - Shared Types für `Customer` implementieren
 - Erste Unit Tests für Validator-Funktionen schreiben
-- PR erstellen — Mentor reviewed auf TypeScript-Qualität
+- PR erstellen — Lead reviewed auf TypeScript-Qualität
 
 **Deliverable:** `shared/types/` mit Hotel- und Customer-Typen, alle Tests grün.
 
@@ -74,13 +74,13 @@
 - Rollen und Berechtigungen im Frontend durchsetzen
 - Supabase Auth (oder JWT) in der Praxis
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - Auth-Architektur vorstellen: wie Session-Management funktioniert
 - RLS Policies für Auth-Tabelle gemeinsam schreiben
 - Code Review: Rollenlogik prüfen
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - `auth.service.ts` implementieren (Login, Logout, Session lesen)
 - Login-UI bauen (Form + Validierung)
@@ -101,13 +101,13 @@
 - Service-Layer sauber von UI trennen
 - Formulare mit Validierung bauen
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - SOLID S-Prinzip live demonstrieren: `HotelService` vs. `HotelChainService`
 - Supabase Query-Patterns zeigen (select, insert, update, soft delete)
 - Architekturgrenze einhalten: kein direkter Supabase-Call im View
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - `hotel.service.ts` mit CRUD-Methoden implementieren
 - Hotel-Liste View bauen
@@ -128,12 +128,12 @@
 - Supabase Joins in Queries
 - Komponenten wiederverwenden (aus Woche 4 lernen)
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - Datenbankrelationen erklären: Customer → HotelChain → Hotel
 - Code Review: Duplikate aus Woche 4 erkennen und refactoren
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - `customer.service.ts` implementieren
 - Kunden-Liste und Detail-View bauen
@@ -153,12 +153,12 @@
 - Datums- und Zeitlogik
 - Business Rules in Services (keine Doppelbuchungen)
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - State Machine Pattern vorstellen (Buchungsstatus)
 - Business Rule: keine überlappenden Buchungen — gemeinsam als Unit Test zuerst
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - `booking.service.ts` mit Statuslogik implementieren
 - Buchung anlegen: Kunde + Hotel + Zeitraum
@@ -178,12 +178,12 @@
 - Open/Closed Prinzip: neue Rechnungsarten ohne bestehende Klassen ändern
 - PDF-Export als Edge Case
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - SOLID O-Prinzip live zeigen: Rechnungstypen erweiterbar machen
 - Edge Function vs. clientseitiges PDF erklären
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - `supplier.service.ts` implementieren
 - Lieferanten-Liste und CRUD bauen
@@ -204,13 +204,13 @@
 - Gesamten Code reviewen und bereinigen
 - Präsentation eines echten Software-Projekts
 
-**Mentor-Aufgaben:**
+**Lead-Aufgaben:**
 
 - Finales Code Review: Architekturregeln eingehalten?
 - Refactoring-Session: gemeinsam Code verbessern
 - Abschlusspräsentation moderieren
 
-**Schüler-Aufgaben:**
+**Entwickler-Aufgaben:**
 
 - Dashboard implementieren: aktive Buchungen, offene Rechnungen, Lieferantenanzahl
 - Filter nach Hotel / Hotelkette bauen
@@ -226,8 +226,8 @@
 | Tag     | Aktivität                                                                   |
 | ------- | --------------------------------------------------------------------------- |
 | Montag  | Sprint Planning: Aufgaben besprechen, Branches anlegen                      |
-| Mi / Do | Code Review vom Mentor (PRs reviewen)                                       |
-| Freitag | Demo: Schüler zeigen was fertig ist, kurze Retro (was lief gut / was nicht) |
+| Mi / Do | Code Review durch Lead (PRs reviewen)                                       |
+| Freitag | Demo: Entwickler zeigen was fertig ist, kurze Retro (was lief gut / was nicht) |
 
 ---
 
@@ -244,7 +244,7 @@ Woche 8     Integration    → Dashboard, Cleanup, Präsentation
 
 ---
 
-## Beurteilungskriterien für Schüler
+## Beurteilungskriterien
 
 | Kriterium                                     | Gewichtung |
 | --------------------------------------------- | ---------- |
