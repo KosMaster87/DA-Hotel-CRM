@@ -3,6 +3,15 @@ import { describe, expect, it } from 'vitest';
 import { HotelService } from './hotel.service';
 
 describe('HotelService', () => {
+  it('returns all hotels sorted by name', () => {
+    const service = new HotelService();
+
+    service.create({ name: 'Zoo Hotel', city: 'Berlin' });
+    service.create({ name: 'Airport Hotel', city: 'Hamburg' });
+
+    expect(service.getAll().map((hotel) => hotel.name)).toEqual(['Airport Hotel', 'Zoo Hotel']);
+  });
+
   it('creates and returns a hotel with generated id', () => {
     const service = new HotelService();
 
@@ -18,6 +27,14 @@ describe('HotelService', () => {
     const service = new HotelService();
 
     expect(() => service.create({ name: '   ', city: 'Berlin' })).toThrow('Hotel name is required');
+  });
+
+  it('throws when city is empty', () => {
+    const service = new HotelService();
+
+    expect(() => service.create({ name: 'Sunrise Hotel', city: '   ' })).toThrow(
+      'Hotel city is required'
+    );
   });
 
   it('throws on duplicate hotel name in same city', () => {
@@ -38,5 +55,11 @@ describe('HotelService', () => {
 
     expect(updated.isActive).toBe(false);
     expect(service.getById(created.id).isActive).toBe(false);
+  });
+
+  it('throws when a hotel cannot be found by id', () => {
+    const service = new HotelService();
+
+    expect(() => service.getById('missing-id')).toThrow('Hotel not found: missing-id');
   });
 });
