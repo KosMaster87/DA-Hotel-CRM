@@ -137,7 +137,7 @@ Dateien in `.github/prompts/` und `.github/instructions/`.
 | Auth-Implementierung | Supabase Auth vs. eigenes JWT | Lead (Phase -1) |
 | Client-Router        | Eigener Router vs. navigo     | Lead (Phase -1) |
 
-Details: [docs/architecture/tech-stack.md](docs/architecture/tech-stack.md)
+Details: [docs/manual/architecture/tech-stack.md](docs/manual/architecture/tech-stack.md)
 
 ---
 
