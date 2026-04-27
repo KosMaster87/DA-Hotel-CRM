@@ -5,6 +5,14 @@ node_modules/
 dist/
 dist-ssr/
 
+# Generierte API-Doku (wird lokal & in CI neu erzeugt)
+docs/generated/
+docs-site/docs/api/
+
+# Docusaurus Build-Output und Cache
+docs-site/build/
+docs-site/.docusaurus/
+
 # Environment (NEVER commit — use .env.example instead)
 .env
 .env.local
